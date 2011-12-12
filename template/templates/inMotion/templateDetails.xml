@@ -28,7 +28,9 @@
 
 	<positions>
 		<position>header</position>
-		<position>sidebar</position>
+		<position>masthead</position>
+		<position>leftSidebar</position>
+		<position>rightSidebar</position>
 		<position>bottom</position>
 		<position>footer</position>
 	</positions>

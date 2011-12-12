@@ -2,10 +2,11 @@
 body, select, input, textarea {
 	color: #444; /* off black */
 	font-family: Helvetica, Arial, sans-serif;
+	background-color: #d2d2d1;
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
-h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-top: 0; }
 
 a, a:active, a:visited {
 	color: #607890;
