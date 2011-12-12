@@ -54,24 +54,36 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
 <body class="<?= $menu ?>">
 
-	<div id="wrapper">
-		<header>
-			<jdoc:include type="modules" name ="header" style="xhtml" />
-		</header>
-
-		<div id="main">
-			<aside>
-				<jdoc:include type="modules" name="left" style="xhtml" />
-			</aside>
-
-			<article>
-				<jdoc:include type="component" />
-			</article>
+	<div class="wrapper">
+		<div id="header">
+			<jdoc:include type="modules" name="header" style="xhtml" />
 		</div>
-
-		<footer>
-			<jdoc:include type="modules" name="footer" style="xhtml" />
-		</footer>
+	
+		<?php if ($this->countModules('masthead')): ?>
+		<div id="masthead">
+			<jdoc:include type="modules" name="masthead" style="xhtml" />
+		</div>
+		<?php endif; ?>
+	
+		<div id="body">
+			<div id="leftSidebar">
+				<jdoc:include type="modules" name="leftSidebar" style="xhtml" />
+			</div>
+			<div id="content">
+				<jdoc:include type="component" />	
+			</div>
+			<div id="rightSidebar">
+				<jdoc:include type="modules" name="rightSidebar" style="xhtml" />
+			</div>
+		</div>
+	
+		<div id="bottom">
+			<jdoc:include type="modules" name="bottom" style="xhtml" />
+		</div>
+	
+		<div id="footer">
+				<jdoc:include type="modules" name="footer" style="xhtml" />
+		</div>
 	</div>
 
 	<div class="hidden">
