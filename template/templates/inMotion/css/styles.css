@@ -11,3 +11,27 @@
 /* TODO Update selection BG color */
 ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
 ::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+
+
+.moduletable_pageHeader,
+.moduletable_pageHeaderSecondary {
+	font-family: Candara;
+	font-style: italic;
+	background: #7d7d7d;
+	height: 25px;
+	color: #ffffff;
+}
+
+.moduletable_pageHeader {
+	font-size: 18px;
+	padding: 0 0 0 20px;
+	color: #ffffff;
+	border-top: 1px solid #ffffff;
+	text-transform: uppercase;
+}
+
+.moduletable_pageHeaderSecondary {
+	font-size: 17px;
+	background: url('../images/header/headerStyle2.jpg') top center no-repeat;
+	padding: 0 0 0 193px;
+}
