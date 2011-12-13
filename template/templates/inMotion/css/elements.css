@@ -8,11 +8,11 @@ body, select, input, textarea {
 p { margin: 0; }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
-h1, h2, h3, h4, h5, h6 { font-weight: bold; font-family: arial; margin-top: 0; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; font-family: arial; margin: 0; }
 h1 {font-size: 12px; 
 	text-transform: uppercase; 
 	color: #404040;
-	margin-top: 10px;
+	margin: 10px 0;
 }
 
 a, a:active, a:visited {
