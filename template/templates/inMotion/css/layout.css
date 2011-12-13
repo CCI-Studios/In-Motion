@@ -21,5 +21,14 @@
 }
 
 #content {
-	margin-left: 180px;
+	float:left;
+	width: 498px;
+	padding: 0 18px 0 10px;
+}
+
+#rightSidebar {
+	float:left;
+	height: 400px;
+	width: 194px;
+	background: #ffffff;
 }
