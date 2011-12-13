@@ -17,6 +17,7 @@
 #leftSidebar {
 	float:left;
 	width: 180px;
+	background: #000000;
 }
 
 #content {
