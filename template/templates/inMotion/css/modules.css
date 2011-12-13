@@ -56,3 +56,8 @@
 }
 /* /vmenu */
 
+/*socialNetworkLinks*/
+
+.moduletable_social { float: right; margin: 25px 0 0 0; }
+.moduletable_social a {padding-left: 10px;}
+.moduletable_social a:first-child {padding-left: 0px;}
