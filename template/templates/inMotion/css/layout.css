@@ -20,6 +20,8 @@
 	background: #000000;
 }
 
+#leftSidebar img { max-width: 180px;}
+
 #content {
 	float:left;
 	width: 498px;
