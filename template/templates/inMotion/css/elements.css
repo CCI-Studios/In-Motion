@@ -5,6 +5,8 @@ body, select, input, textarea {
 	background-color: #d2d2d1;
 }
 
+p { margin: 0; }
+
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-top: 0; }
 
