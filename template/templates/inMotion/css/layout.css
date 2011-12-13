@@ -13,4 +13,10 @@
 #body {
 	background: #ededed;
 }
+
+#leftSidebar {
+	float:left;
+	width: 180px;
+	background: #ffffff;
+}
 }
