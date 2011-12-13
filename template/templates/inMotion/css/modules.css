@@ -94,3 +94,54 @@
 .moduletable_social { float: right; margin: 25px 0 0 0; }
 .moduletable_social a {padding-left: 10px;}
 .moduletable_social a:first-child {padding-left: 0px;}
+
+/*rightSidebar menus*/
+
+.moduletable_boxMenu {
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 11px; 
+	font-weight: normal;
+	box-shadow: 0 6px 10px 0 rgba(208, 208, 208, 0.7);
+	width: 162px;
+	border-right: 1px solid #a1a1a1;
+	border-bottom: 1px solid #a1a1a1;
+	margin-top: 25px;
+}
+.moduletable_boxMenu:first-child { margin-top: 0;}
+
+.moduletable_boxMenu h3 { 
+	font-family: Candara;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 12px;
+	color: #ffffff;
+	height: 37px;
+	padding: 11px 69px 0px 10px;
+}
+
+.moduletable_boxMenu li { list-style: none; }
+
+.moduletable_boxMenu ul {
+	background: url('../images/finalBoxes/services_repeat.png') top left repeat-y;
+	margin: 0;
+	padding: 10px 0;
+}
+
+.moduletable_boxMenu a {
+	padding-left: 10px;
+	text-decoration: underline;
+	color: #8A8A8A;
+}
+
+.moduletable_boxMenu a:hover { color: #EB7830;}
+
+/*menu top styles*/
+.orange h3 { background: url('../images/finalBoxes/medTop.jpg') top left no-repeat; padding: 6px 69px 0px 10px; height: 42px; }
+.lightRed h3 { background: url('../images/finalBoxes/weightTop.jpg') top left no-repeat; }
+.mediumRed h3 { background: url('../images/finalBoxes/athlete.jpg') top left no-repeat; }
+.darkRed h3 { background: url('../images/finalBoxes/wellnessTop.jpg') top left no-repeat; }
+.grey h3 { background: url('../images/finalBoxes/symptomsTop.jpg') top left no-repeat; }
+
+
+
