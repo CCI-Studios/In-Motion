@@ -43,7 +43,7 @@
 	font-size: 12px;
 }
 
-.moduletable_miniMenu a { color: #EB7830; }
+.moduletable_miniMenu a { font-family: Candara; font-weight: normal; color: #EB7830; }
 .moduletable_miniMenu a:hover { color: #ffffff; text-decoration: none; }
 
 /*addThis button*/
