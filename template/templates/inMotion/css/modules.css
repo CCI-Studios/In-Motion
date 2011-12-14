@@ -46,7 +46,11 @@
 .moduletable_miniMenu a { color: #EB7830; }
 .moduletable_miniMenu a:hover { color: #ffffff; text-decoration: none; }
 
-/* /hmenu */
+/*addThis button*/
+
+.joomla_add_this {
+	float: right;
+}
 
 
 /* @group vmenu */
