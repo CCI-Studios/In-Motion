@@ -32,31 +32,19 @@
 .moduletable_hmenu.primary a:hover, .moduletable_hmenu.primary li.active a {color: #b5272d; text-decoration: none;}
 
 /*MINI MENU IN HEADER*/
-.moduletable_hmenu.small { 
-	float: right; 
+
+.moduletable_miniMenu {
+	float: right;
+	color: #EB7830;
 	font-style: italic;
-	margin: 25px 0 0 0;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0 10px 0 0;
+	font-size: 12px;
 }
 
-.moduletable_hmenu.small > ul {
-	margin: 0;
-	padding: 0;
-}
-
-.moduletable_hmenu.small > ul > li {
-	display: inline-block;
-	*display: inline;
-	*zoom: 1;
-	position: relative;
-	
-	padding: 0 5px;
-}
-
-.moduletable_hmenu.small li { border-left: 2px solid #EB7830; line-height: 10px; }
-.moduletable_hmenu.small li:first-child { border: none; }
-.moduletable_hmenu.small a { color: #EB7830; }
-.moduletable_hmenu.small a:hover { color: #ffffff; text-decoration: none; }
-
+.moduletable_miniMenu a { color: #EB7830; }
+.moduletable_miniMenu a:hover { color: #ffffff; text-decoration: none; }
 
 /* /hmenu */
 
@@ -94,14 +82,11 @@
 
 /*socialNetworkLinks*/
 
-.moduletable_social { float: right; margin: 25px 0 0 0; }
+.moduletable_social { float: right; margin: 0 0 0 0; }
 .moduletable_social a {padding-left: 10px;}
 .moduletable_social a:first-child {padding-left: 0px;}
 
 /*leftSidebar menus*/
-
-#leftSidebar .moduletable_vmenu { margin-top: -4px;} /*FIXME SHOULDNT NEED TO USE THIS NEGATIVE MARGIN*/
-
 
 /*rightSidebar menus*/
 
