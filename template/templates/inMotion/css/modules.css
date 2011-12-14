@@ -100,7 +100,7 @@
 
 /*leftSidebar menus*/
 
-#leftSidebar .moduletable_vmenu { margin-top: -4px;}
+#leftSidebar .moduletable_vmenu { margin-top: -4px;} /*FIXME SHOULDNT NEED TO USE THIS NEGATIVE MARGIN*/
 
 
 /*rightSidebar menus*/
