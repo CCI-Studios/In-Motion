@@ -65,17 +65,35 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 			<jdoc:include type="modules" name="masthead" style="xhtml" />
 		</div>
 		<?php endif; ?>
-	
+
 		<div id="body">
+			<?php if ($this->countModules('leftSidebar')): ?>
+
 			<div id="leftSidebar">
 				<jdoc:include type="modules" name="leftSidebar" style="xhtml" />
 			</div>
-			<div id="content">
+			<?php endif; ?>
+			
+			<div id="content" class="<?php 
+				if ($this->countModules('leftSidebar') && $this->countModules('rightSidebar')) {
+					echo 'normal';
+				} else {
+					if (!$this->countModules('leftSidebar') && !$this->countModules('rightSidebar')) {
+						echo 'wide3';
+					} elseif (!$this->countModules('leftSidebar')) {
+						echo 'wide1';
+					} else {
+						echo 'wide2';
+					}
+				}
+			?>">
 				<jdoc:include type="component" />	
 			</div>
+			<?php if ($this->countModules('rightSidebar')): ?>
 			<div id="rightSidebar">
 				<jdoc:include type="modules" name="rightSidebar" style="xhtml" />
 			</div>
+			<?php endif; ?>
 			<div class="clear"></div>
 		</div>
 
