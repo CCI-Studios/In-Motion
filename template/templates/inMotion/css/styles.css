@@ -34,4 +34,5 @@
 	font-size: 17px;
 	background: url('../images/header/headerStyle2.jpg') top center no-repeat;
 	padding: 0 0 0 193px;
+	max-height: 24px;
 }
