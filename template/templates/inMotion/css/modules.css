@@ -12,7 +12,7 @@
 	float: right; 
 	text-transform: uppercase;
 	clear: both;
-	margin: 10px 0 5px;
+	margin: 20px 0 5px;
 }
 .moduletable_hmenu.primary > ul {
 	margin: 0;
@@ -87,7 +87,7 @@
 
 /*socialNetworkLinks*/
 
-.moduletable_social { float: right; margin: 0 0 0 0; clear: both;}
+.moduletable_social { float: right; margin: -10px 0 0 0; clear: both;}
 .moduletable_social a {padding-left: 10px;}
 .moduletable_social a:first-child {padding-left: 0px;}
 
