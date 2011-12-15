@@ -133,6 +133,13 @@
 
 .moduletable_boxMenu a:hover { color: #EB7830;}
 
+/*bottom*/
+
+#bottom .moduletable_boxMenu:first-child {margin-left: 0;}
+#bottom .moduletable_boxMenu {
+	display: inline-block;
+	margin-left: 16px;
+}
 
 
 
