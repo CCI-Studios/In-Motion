@@ -43,4 +43,6 @@
 	background: -ms-linear-gradient(top,  rgba(125,125,125,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
 	background: linear-gradient(top,  rgba(125,125,125,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7d7d', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	
+	padding: 0 10px;
 }
