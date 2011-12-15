@@ -98,10 +98,13 @@ JHtml::_('behavior.framework', true);
 			<div class="clear"></div>
 		</div>
 
-	
 		<div id="bottom">
-			<jdoc:include type="modules" name="bottom1" style="xhtml" />
-			<jdoc:include type="modules" name="bottom2" style="xhtml" />
+			<div id="bottom1">
+				<jdoc:include type="modules" name="bottom1" style="xhtml" />
+			</div>
+			<div id="bottom2">
+				<jdoc:include type="modules" name="bottom2" style="xhtml" />
+			</div>
 		</div>
 	
 		<div id="footer">
