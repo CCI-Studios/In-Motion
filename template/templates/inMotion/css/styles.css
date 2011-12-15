@@ -37,6 +37,13 @@
 	max-height: 24px;
 }
 
+#bottom .moduletable_pageHeader { border-top: 0; background: none; }
+#bottom .moduletable_pageHeader p {
+	border-bottom: 1px solid #ffffff; 
+	width: 860px; 
+	padding-left: 3px;
+}
+
 /*in case one of the sidebars or both sidebars are removed*/
 .wide1 { width: 705px;}
 .wide2 { width: 720px;}
