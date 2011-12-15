@@ -37,7 +37,7 @@
 	max-height: 24px;
 }
 
-#bottom .moduletable_pageHeader { border-top: 0; background: none; padding: 0 15px;}
+#bottom .moduletable_pageHeader { border-top: 0; background: none; padding: 0;}
 #bottom .moduletable_pageHeader p { 
 	border-bottom: 1px solid #ffffff;
 	padding-left: 3px;
