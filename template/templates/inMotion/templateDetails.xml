@@ -31,7 +31,8 @@
 		<position>masthead</position>
 		<position>leftSidebar</position>
 		<position>rightSidebar</position>
-		<position>bottom</position>
+		<position>bottom1</position>
+		<position>bottom2</position>
 		<position>footer</position>
 	</positions>
 
