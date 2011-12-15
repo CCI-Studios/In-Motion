@@ -157,11 +157,10 @@
 .moduletable_boxMenu a:hover { color: #EB7830;}
 
 /*bottom*/
-
-#bottom .moduletable_boxMenu:first-child { margin-left: 50px;}
+#bottom .moduletable_boxMenu:first-child { margin-left: 0px; }
 #bottom .moduletable_boxMenu {
 	display: inline-block;
-	margin: 10px 9px 0 0px;
+	margin: 10px 0px 0 10px;
 }
 
 
