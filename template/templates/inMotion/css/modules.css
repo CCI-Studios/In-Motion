@@ -161,5 +161,11 @@
 .moduletable_social { float: right; margin: -10px 0 0 0; clear: both;}
 .moduletable_social a {padding-left: 10px;}
 .moduletable_social a:first-child {padding-left: 0px;}
+/*footer*/
+/*copyright*/
+.moduletable .copyright {
+	font-size: 10px;
+}
 
+.moduletable .copyright a { color: #444;}
 
