@@ -216,9 +216,4 @@
 
 /*footer*/
 /*copyright*/
-.moduletable .copyright {
-	font-size: 10px;
-}
-
-.moduletable .copyright a { color: #444;}
-
+.moduletable .copyright { font-size: 10px; }
