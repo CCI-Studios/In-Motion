@@ -64,6 +64,7 @@ JHtml::_('behavior.framework', true);
 		<?php if ($this->countModules('masthead')): ?>
 		<div id="masthead">
 			<jdoc:include type="modules" name="masthead" style="xhtml" />
+			<div class="clear"></div>
 		</div>
 		<?php endif; ?>
 
