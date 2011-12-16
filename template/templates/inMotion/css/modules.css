@@ -7,20 +7,22 @@
 	font-family: Arial Narrow; 
 	font-weight: bold; 
 	font-size: 12px;
+	text-transform: uppercase;
 }
 
 .moduletable_hmenu.primary { 
 	float: right; 
-	text-transform: uppercase;
 	clear: both;
 	margin: 20px 0 5px;
 }
-.moduletable_hmenu.primary > ul {
+.moduletable_hmenu.primary > ul,
+.moduletable_hmenu.secondary > ul {
 	margin: 0;
 	padding: 0;
 }
 
-.moduletable_hmenu.primary > ul > li {
+.moduletable_hmenu.primary > ul > li,
+.moduletable_hmenu.secondary > ul > li {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
@@ -33,7 +35,6 @@
 .moduletable_hmenu.primary a:hover, .moduletable_hmenu.primary li.active a {color: #b5272d; text-decoration: none;}
 
 /*MINI MENU IN HEADER*/
-
 .moduletable_miniMenu {
 	float: right;
 	color: #EB7830;
@@ -48,7 +49,6 @@
 .moduletable_miniMenu a:hover { color: #ffffff; text-decoration: none; }
 
 /* leftSidebar menu */
-
 .moduletable_vmenu { font-family: arial, helvetica, sans-serif; font-size: 11px; font-weight: normal; }
 
 .moduletable_vmenu ul {
@@ -78,7 +78,6 @@
 .moduletable_vmenu a:hover { color:#EB7830; }
 
 /*rightSidebar boxMenus*/
-
 .moduletable_boxMenu {
 	font-family: arial, helvetica, sans-serif; 
 	font-size: 11px; 
@@ -118,22 +117,80 @@
 .moduletable_boxMenu a:hover { color: #EB7830;}
 
 /*bottom boxMenus*/
-
 #bottom2 .moduletable_boxMenu:first-child { margin-left: 0px; }
 #bottom2 .moduletable_boxMenu {
 	display: inline-block;
 	margin: 5px 0px 0 1.42045454545%;
 }
 
-/*addThis button*/
+/*boxMenu header styles*/
+.orange h3 { background: url('../images/finalBoxes/medTop.jpg') top left no-repeat; padding: 6px 69px 0px 10px; height: 42px; }
+.lightRed h3 { background: url('../images/finalBoxes/weightTop.jpg') top left no-repeat; }
+.mediumRed h3 { background: url('../images/finalBoxes/athleteTop.jpg') top left no-repeat; }
+.darkRed h3 { background: url('../images/finalBoxes/wellnessTop.jpg') top left no-repeat; }
+.grey h3 { background: url('../images/finalBoxes/symptomsTop.jpg') top left no-repeat; }
 
+/*footer menu*/
+.moduletable_hmenu.secondary {
+	text-align: center;
+	font-size: 12px;
+	line-height: 10px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.moduletable_hmenu.secondary > ul > li:first-child { border-left: none; }
+.moduletable_hmenu.secondary > ul > li { border-left: 1px solid #444; }
+
+.moduletable_hmenu.secondary a { color: #444; }
+
+/*header*/
+
+/*socialNetworkLinks*/
+.moduletable_social { float: right; margin: -10px 0 0 0; clear: both;}
+.moduletable_social a {padding-left: 10px;}
+.moduletable_social a:first-child {padding-left: 0px;}
+
+/*addThis button*/
 .joomla_add_this {
 	float: right;
 	clear: both;
 }
 
 /*masthead */
+/*pageHeaders */
+.moduletable_pageHeader,
+.moduletable_pageHeaderSecondary {
+	font-family: Candara;
+	font-style: italic;
+	background: #7d7d7d;
+	height: 25px;
+	color: #ffffff;
+}
 
+.moduletable_pageHeader {
+	font-size: 18px;
+	padding: 0 0 0 20px;
+	color: #ffffff;
+	border-top: 1px solid #ffffff;
+	text-transform: uppercase;
+}
+
+.moduletable_pageHeaderSecondary {
+	font-size: 17px;
+	background: url('../images/header/headerStyle2.jpg') top center no-repeat;
+	padding: 0 0 0 193px;
+	max-height: 24px;
+}
+
+#bottom .moduletable_pageHeader { border-top: 0; background: none; padding: 0;}
+#bottom .moduletable_pageHeader p { 
+	border-bottom: 1px solid #ffffff;
+	padding-left: 3px;
+}
+
+/*slideshow*/
 .moduletable_slideShow {
 	float: left;
 	width: 358px;
@@ -142,6 +199,7 @@
 
 .moduletable_slideShow img { display: block; }
 
+/*welcomeMessage on home page*/
 .moduletable_welcomeMessage {
 	float: right;
 	width: 512px;
@@ -156,11 +214,6 @@
 	margin-bottom: 15px;
 }
 
-/*socialNetworkLinks*/
-
-.moduletable_social { float: right; margin: -10px 0 0 0; clear: both;}
-.moduletable_social a {padding-left: 10px;}
-.moduletable_social a:first-child {padding-left: 0px;}
 /*footer*/
 /*copyright*/
 .moduletable .copyright {
