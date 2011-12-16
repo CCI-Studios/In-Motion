@@ -1,7 +1,8 @@
 /* @group modules */
 .moduletable {}
 
-/* @group hmenu */
+/* MENUS */
+/*HEADER MENU*/
 .moduletable_hmenu { 
 	font-family: Arial Narrow; 
 	font-weight: bold; 
@@ -46,38 +47,8 @@
 .moduletable_miniMenu a { font-family: Candara; font-weight: normal; color: #EB7830; }
 .moduletable_miniMenu a:hover { color: #ffffff; text-decoration: none; }
 
-/*addThis button*/
+/* leftSidebar menu */
 
-.joomla_add_this {
-	float: right;
-	clear: both;
-}
-
-/*masthead */
-
-.moduletable_slideShow {
-	float: left;
-	width: 358px;
-	font-size: 10px;
-}
-
-.moduletable_slideShow img { display: block; }
-
-.moduletable_welcomeMessage {
-	float: right;
-	width: 512px;
-	padding: 15px;
-}
-.moduletable_welcomeMessage h3 {
-	color: #EB7830;
-	font-size: 26px;
-	font-weight: bold;
-	font-style: italic;
-	text-transform: uppercase;
-	margin-bottom: 15px;
-}
-
-/* @group vmenu */
 .moduletable_vmenu { font-family: arial, helvetica, sans-serif; font-size: 11px; font-weight: normal; }
 
 .moduletable_vmenu ul {
@@ -106,17 +77,7 @@
 
 .moduletable_vmenu a:hover { color:#EB7830; }
 
-/* /vmenu */
-
-/*socialNetworkLinks*/
-
-.moduletable_social { float: right; margin: -10px 0 0 0; clear: both;}
-.moduletable_social a {padding-left: 10px;}
-.moduletable_social a:first-child {padding-left: 0px;}
-
-/*leftSidebar menus*/
-
-/*rightSidebar menus*/
+/*rightSidebar boxMenus*/
 
 .moduletable_boxMenu {
 	font-family: arial, helvetica, sans-serif; 
@@ -156,12 +117,49 @@
 
 .moduletable_boxMenu a:hover { color: #EB7830;}
 
-/*bottom*/
+/*bottom boxMenus*/
+
 #bottom2 .moduletable_boxMenu:first-child { margin-left: 0px; }
 #bottom2 .moduletable_boxMenu {
 	display: inline-block;
 	margin: 5px 0px 0 1.42045454545%;
 }
 
+/*addThis button*/
+
+.joomla_add_this {
+	float: right;
+	clear: both;
+}
+
+/*masthead */
+
+.moduletable_slideShow {
+	float: left;
+	width: 358px;
+	font-size: 10px;
+}
+
+.moduletable_slideShow img { display: block; }
+
+.moduletable_welcomeMessage {
+	float: right;
+	width: 512px;
+	padding: 15px;
+}
+.moduletable_welcomeMessage h3 {
+	color: #EB7830;
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+/*socialNetworkLinks*/
+
+.moduletable_social { float: right; margin: -10px 0 0 0; clear: both;}
+.moduletable_social a {padding-left: 10px;}
+.moduletable_social a:first-child {padding-left: 0px;}
 
 
