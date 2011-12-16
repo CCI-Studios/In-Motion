@@ -51,4 +51,10 @@
 
 #footer {
 	background: #ffffff;
+	padding: 30px 0 30px 0;
 }
+
+/*in case one of the sidebars or both sidebars are removed*/
+.wide1 { width: 705px;}
+.wide2 { width: 720px;}
+.wide3 { width: 100%; }
