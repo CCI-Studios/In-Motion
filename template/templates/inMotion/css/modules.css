@@ -119,8 +119,8 @@
 /*bottom boxMenus*/
 #bottom2 .moduletable_boxMenu:first-child { margin-left: 0px; }
 #bottom2 .moduletable_boxMenu {
-	display: inline-block;
-	margin: 10px 0px 0 1.42045454545%;
+	float: left;
+	margin: 10px 0px 0 16px;
 }
 
 /*boxMenu header styles*/
