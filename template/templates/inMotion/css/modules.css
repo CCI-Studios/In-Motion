@@ -74,7 +74,7 @@
 
 .moduletable_vmenu ul li a { color: #7d7d7d; } /*category titles*/
 .moduletable_vmenu ul li ul li a { color: white; } /*category list*/
-.moduletable_vmenu ul li.active a { color: #EB7830; font-weight: bold; }
+.moduletable_vmenu ul > li.active > a { color: #EB7830; font-weight: bold; }
 
 .moduletable_vmenu a:hover { color:#EB7830; }
 
