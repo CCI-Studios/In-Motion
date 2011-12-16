@@ -70,7 +70,6 @@ JHtml::_('behavior.framework', true);
 
 		<div id="body">
 			<?php if ($this->countModules('leftSidebar')): ?>
-
 			<div id="leftSidebar">
 				<jdoc:include type="modules" name="leftSidebar" style="xhtml" />
 			</div>
@@ -98,7 +97,9 @@ JHtml::_('behavior.framework', true);
 			<?php endif; ?>
 			<div class="clear"></div>
 		</div>
-
+		
+		<?php if ($this->countModules('bottom2')): ?>
+		<?php if ($this->countModules('bottom1')): ?>
 		<div id="bottom">
 			<div id="bottom1">
 				<jdoc:include type="modules" name="bottom1" style="xhtml" />
@@ -106,7 +107,10 @@ JHtml::_('behavior.framework', true);
 			<div id="bottom2">
 				<jdoc:include type="modules" name="bottom2" style="xhtml" />
 			</div>
+			<div class="clear"></div>
 		</div>
+		<?php endif; ?>
+		<?php endif; ?>
 	
 		<div id="footer">
 				<jdoc:include type="modules" name="footer" style="xhtml" />
