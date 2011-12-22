@@ -67,6 +67,25 @@ JHtml::_('behavior.framework', true);
 			<div class="clear"></div>
 		</div>
 		<?php endif; ?>
+		
+		<div class="slideshow moduletable_slideShow">
+			<ul class="nav">
+				<li class="prev">Previous</li>
+				<li class="next">Next</li>
+			</ul>
+			
+			<ul class="slides">
+				<li class="active"><img src="templates/inMotion/images/slideshow/1.jpg" width="358" height="228" ></li>
+				<li><img src="templates/inMotion/images/slideshow/2.png" width="358" height="228" ></li>
+				<li><img src="templates/inMotion/images/slideshow/3.png" width="358" height="228" ></li>
+				<li><img src="templates/inMotion/images/slideshow/4.png" width="358" height="228" ></li>
+				<li><img src="templates/inMotion/images/slideshow/5.png" width="358" height="228" ></li>
+				<li><img src="templates/inMotion/images/slideshow/6.png" width="358" height="228" ></li>
+				<li><img src="templates/inMotion/images/slideshow/7.png" width="358" height="228" ></li>
+				<li><img src="templates/inMotion/images/slideshow/8.png" width="358" height="228" ></li>
+				<li><img src="templates/inMotion/images/slideshow/9.png" width="358" height="228" ></li>
+			</ul>
+		</div>
 
 		<div id="body">
 			<?php if ($this->countModules('leftSidebar')): ?>
@@ -127,6 +146,7 @@ JHtml::_('behavior.framework', true);
 		<script src="/templates/<?= $this->template ?>/js/dropmenu.js"></script>
 		<script src="/templates/<?= $this->template ?>/js/html5.js"></script>
 		<script src="/templates/<?= $this->template ?>/js/submenu.js"></script>
+		<script src="/templates/<?= $this->template ?>/js/slideshow.js"></script>
 	<?php else: ?>
 		<script>
 			var _gaq=[["_setAccount","<?php echo $analytics?>"],["_trackPageview"]];
